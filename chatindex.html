@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Mini Open Chatting</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div>브라우저는 크롬 사용 권장</div>
+    <div id="box">
+        <div id="text">당신이 사용할 닉네임을 적어주세요.</div>
+        <!--<form action="http://172.17.2.125:3000/chatting" method="POST">-->
+            <input type="text" id="nickname" name="nickname" placeholder="한글 / 영어 / 숫자, 8자 이내">
+            <button id="submit" type="submit">확인</button>
+        <!--</form>-->
+        <div id="n-msg"></div>
+    </div>
+</body>
+<script src="./index.js"></script>
+
+</html>

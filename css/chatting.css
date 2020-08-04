@@ -1,0 +1,215 @@
+@media (max-width: 504px) {
+    html,
+    body {
+        margin: 0px;
+        font-family: 'Nanum Gothic';
+        background-color: cyan;
+        overflow: hidden;
+    }
+
+    #bg {
+        width: 100%;
+        height: 100vh;
+        background-color: cyan;
+    }
+
+    #msg {
+        position: absolute;
+        bottom: 0;
+        width: 80vw;
+        height: 8vh;
+        padding-left: 10px;
+        border: none;
+        border-top: 3px solid black;
+        outline-style: none;
+        font-size: 15px;
+    }
+
+    #sendmsg {
+        position: absolute;
+        bottom: 0;
+        left: 82.5vw;
+        width: 17.5vw;
+        height: 8.2vh;
+        border-top: 3px solid black;
+        background-color: chartreuse;
+    }
+
+    #tri {
+        position: relative;
+        left: 30%;
+        top: 2vh;
+        width: 0px;
+        height: 0px;
+        border-left: 20px solid orange;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-right: 20px solid none;
+    }
+
+    #sendmsg:hover {
+        cursor: pointer;
+    }
+
+    .system {
+        position: relative;
+        left: 6%;
+        width: 80%;
+        height: 30px;
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 20px;
+        text-align: center;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .mysaid {
+        position: relative;
+        left: 35%;
+        width: 60%;
+        height: auto;
+        background-color: #ffff00;
+        border-radius: 5px;
+        text-align: center;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .others {
+        position: relative;
+        width: 60%;
+        height: auto;
+        background-color: #ffffff;
+        border-radius: 5px;
+        text-align: center;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    ul {
+        height: 85%;
+        overflow-y: auto;
+    }
+
+    li {
+        list-style-type: none;
+    }
+}
+
+@media (min-width: 505px) {
+
+    html,
+    body {
+        margin: 0;
+        font-family: 'Nanum Gothic';
+        overflow: hidden;
+    }
+
+    #bg {
+        width: 470px;
+        height: 750px;
+        background-color: cyan;
+        margin: auto;
+        border: 3px solid black;
+        border-radius: 20px;
+    }
+
+    #input-msg {
+        margin: auto;
+        position: absolute;
+    }
+
+    #msg {
+        position: absolute;
+        left: 0.5px;
+        bottom: -79.5px;
+        width: 370px;
+        height: 70px;
+        padding-left: 10px;
+        border: none;
+        border-top: 3px solid black;
+        border-bottom-left-radius: 17px;
+        outline-style: none;
+        font-size: 20px;
+    }
+
+    #sendmsg {
+        position: absolute;
+        bottom: -79.5px;
+        left: 380px;
+        width: 90px;
+        height: 72px;
+        border-top: 3px solid black;
+        border-bottom-right-radius: 17px;
+        background-color: chartreuse;
+    }
+
+    #tri {
+        position: relative;
+        left: 30%;
+        top: 17px;
+        width: 0px;
+        height: 0px;
+        border-left: 40px solid orange;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+        border-right: 40px solid none;
+    }
+
+    #sendmsg:hover {
+        cursor: pointer;
+    }
+
+    .system {
+        position: relative;
+        left: 6%;
+        width: 80%;
+        height: 30px;
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 20px;
+        text-align: center;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .mysaid {
+        position: relative;
+        left: 35%;
+        width: 60%;
+        height: auto;
+        background-color: #ffff00;
+        border-radius: 5px;
+        text-align: center;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .others {
+        position: relative;
+        width: 60%;
+        height: auto;
+        background-color: #ffffff;
+        border-radius: 5px;
+        text-align: center;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    #conversation {
+        height: 85%;
+        overflow-y: auto;
+    }
+
+    #conversation > li {
+        list-style-type: none;
+    }
+
+    #howmanyconnect {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+    #connectmen {
+        display: none;
+    }
+}
